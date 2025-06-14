@@ -6,7 +6,7 @@ model = joblib.load('model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
 
 # Title
-st.title("Patient Condition Prediction from Drug Review 💊")
+st.title("Patient Condition Prediction from Drug Review .")
 
 # Text input
 user_review = st.text_area("Enter the patient's review:")
